@@ -1,0 +1,5 @@
+C:\Users\LukasHolecy\source\repos\OfficeUtilities\OfficeUtilities\TestableRegistry\obj\Debug\netstandard2.0\TestableRegistry.csproj.AssemblyReference.cache
+C:\Users\LukasHolecy\source\repos\OfficeUtilities\OfficeUtilities\TestableRegistry\obj\Debug\netstandard2.0\TestableRegistry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LukasHolecy\source\repos\OfficeUtilities\OfficeUtilities\TestableRegistry\obj\Debug\netstandard2.0\TestableRegistry.AssemblyInfoInputs.cache
+C:\Users\LukasHolecy\source\repos\OfficeUtilities\OfficeUtilities\TestableRegistry\obj\Debug\netstandard2.0\TestableRegistry.AssemblyInfo.cs
+C:\Users\LukasHolecy\source\repos\OfficeUtilities\OfficeUtilities\TestableRegistry\obj\Debug\netstandard2.0\TestableRegistry.csproj.CoreCompileInputs.cache

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>TestableRegistry</AssemblyName>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>StrongName.snk</AssemblyOriginatorKeyFile>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Brochet.Office.Registry</RootNamespace>
+    <AssemblyVersion>$(TestableRegistry_AssemblyVersion)</AssemblyVersion>
+    <Version>$(TestableRegistry_NuGetVersion)</Version>
+    <FileVersion>$(TestableRegistry_NuGetVersion)</FileVersion>
+    <Description>Testable wrapper for Microsoft.Win32.Registry.</Description>
+    <Authors>Brochet Ltd.</Authors>
+    <Company>Brochet Ltd.</Company>
+    <PackageId>TestableRegistry</PackageId>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="stylecop.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="stylecop.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.Registry" Version="$(Microsoft_Win32_Registry_Version)" />
+  </ItemGroup>
+</Project>
